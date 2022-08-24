@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Notes</title>
+<link rel="stylesheet" href="">
+</head>
+<body><center>
+<body style="background-color:PapayaWhip;">
+
+<h1> Here we have notes for Frist Semister </h1>
+</center>
+<h2>JAVA</h2>
+<p><a href="UNIT JAVA.pdf"></a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+
+<h2>  </h2>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+
+<h2>  </h2>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+
+<h2>  </h2>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+
+<h2>  </h2>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+
+</body>
+</html>

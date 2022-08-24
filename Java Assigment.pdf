@@ -1,0 +1,334 @@
+           ASSIGNMENT JAVA-1
+
+
+1)What is Java?
+A)Java is an object-oriented programming language. Everything in Java is associated with classes and objects, along with its attributes and methods. For example: in real life, a car is an object. The car has attributes, such as weight and color, and methods, such as drive and brake
+
+
+2)Describe brief history of java?
+A)James Gosling, Mike Sheridan, and Patrick Naughton developed the Java language project in June 1991. Firstly, it was called "Greentalk"by James Gosling, and with a file extension  .gt. Later on, it was named as Oak and was developed as a part of the Green project
+In 1995, Oak was renamed as "Java" because it was already a trademark by Oak Technologies.
+
+3)Explain features of Java?
+A)Simple 
+Object-Oriented
+Portable
+Platform independent
+Secured
+Robust
+Interpreted. 
+Multithreaded
+Distributed
+
+
+4)Differentiate between Java and C.
+A)
+C	JAVA
+C is a Procedural Programming Language.	Java is Object-Oriented
+ language.
+In C declaration of variables is at the beginning of the block.	We can declare variables 
+anywhere.
+C does not supports Threading.	Java supports the concept 
+of threading.
+C supports pointers.	Java does not supports 
+pointers.
+C is platform dependent.	Java is a platform 
+independent.
+It follows a top-down approach.	Java follows a bottom-up 
+approach.
+C does not supports OOPS concept.
+C is a compiled language
+C is a low-level language	Java supports OOPS  concept
+Java is an Interpreted language
+JAVA is a high-level language
+
+
+5)Explain java compilation process.(g)
+A)The programs are not compiled into executable files, they are compiled into bytecode which the JVM (Java Virtual Machine) then executes at runtime. Java source code is compiled into bytecode when we use the javac compiler. The bytecode gets saved on the disk with the file extensionJava program Structure.
+
+
+6)Write Java program to demonstrate command?
+A)
+class ComLineEx 
+{
+ public static void main (String args[]) 
+{
+ for(inti=0;i<args,length;i++) 
+{
+ System.out.println("Java is : "+args[i]);
+ }
+ }
+ }
+Output:
+C:\jdk1.8.0_131\bin>javacComLineEx.java
+C:\jdk1.8.0_131\bin>java ComLineEx Simple Object-Oriented Robust Secure
+Java is : Simple
+Java is : Object-Oriented
+Java is : Robust
+
+
+7)What is variable list the types of variables?
+A)Java variable is a piece of memory that can contain a data value. Variables are typically used to store information which your Java program needs to do its job.
+Local Variables: A variable defined within a block or method or constructor is called local variable
+Instance(Gloable) Variables:Instance variables are non-static variables and which are declared outside the class , constructor or block.
+
+Static variables: It is also known as Class variables.These variables are declared similarly as instance variables, and static variables are declared using the static keyword within a class outside any method constructor or block.
+
+
+8)Write a java program to calculate square of number?
+A)class Square
+{
+public static void main(String agrs[])
+{
+	int n=2;
+	{
+	System.out.println("Square of the number is"+n*n);
+	}	
+}
+}
+Output
+Square of the number is 4
+
+
+9)Explain Java tokens?
+A)
+ 
+    
+Keywors are 
+int,float , if, do, new,char,while,etc
+Identifiers
+Identifiers are the names of variables, methods, classes, packages and interfaces
+Constants
+Constants in java are fixed values those are not changed during the Execution of program java supports several types of Constants those are:
+Integer Constants
+Real Constants
+Single Character Constants
+String Constants
+
+String
+In Java, string is basically an object that represents sequence of char values.
+
+
+
+10)Explain type casting with example.
+A)Casting is a process of changing one type value to another type. There are two types of type casting
+
+Implicit casting: Converting a lower data type into a higher one is called wideningtype/ Implicit casting
+
+Explicit Casting:Converting a higher data type into a lower one is called Narrowing /Explicit Casting.
+
+class Tchange
+{
+ public static void main(String args[]) 
+   { 
+     int num= 10; 
+     System.out.println("value of int ="+num); 
+     double data=num;
+     System.out.println("Long value ="+data); 
+    }
+}
+Output
+value of int=10
+value of long=10.0
+
+
+11)What is JVM?
+A)Java Virtual Machine is an engine that provides run time environment to drive Java code or applications .It converts Java bytecode into machine language .JVM is a part of java run environement(JRE)
+
+12)List different types of decision making statements in Java.
+A)If statement
+The if statement is a conditional statement in which the tested condition is true then the execution of  a certain section is done.
+If-else statement
+If-else statement also tests the condition. It executes the if block if condition is true otherwise else block is executed
+Nested if..ELSE  Statement
+A nested if …else is an statement which contains another if …else. 
+if else ladder statement
+The if else ladder statement is used to work on multiple conditions. 
+
+
+
+13)Give syntax of nested if statement.. 
+A)A nested if …else is an statement which contains another 
+if …else. If(test condition1 )
+{ 
+if(test condition2) 
+{ 
+statement-1;
+}   
+}
+
+
+14)What is the difference between print() and println( )? (g)
+A)  
+
+
+
+
+15)Explain simple java program line by line.
+A)
+ 
+public class HelloWorld : class is keyword used to declare a class in Java HelloWorld is the name of the class
+{
+public static viod main(String.agrs[ ])//This is the main class method static is a keyword if we declare any method as static ,void is the return type of the method , String args[ ] is used for command line argument
+{
+System.out.println("hello");//here we are printing hello
+}
+}
+
+16)Write short note on JVM.
+A)Java Virtual Machine (JVM) is a engine that provides runtime environment to drive the JavaCode or applications.
+It converts Java bytecode into machines language. JVM is a part of Java Run Environment (JRE).
+JVM consists of three distinct components:
+Class Loader.
+Runtime Memory/Data Area.
+Execution Engine.
+
+ 
+ 
+
+
+
+
+17)Write a java Program to demonstrate if-else statement.
+A)If-else statement
+If-else statement also tests the condition. It executes the if block if condition is true otherwise else block is executed
+Program
+class Ifelse
+{
+public static void main(String agrs[ ])
+ {
+  int a=5,b=2;
+  if(a>b)
+	{
+	System.out.println("A is greater");
+	}
+	else
+	{
+	System.out.println("B is greater");
+	}
+ }
+}
+
+output:
+A is greater 
+
+
+18)Write a Java program to demonstrate ?: Operator.
+A)class Operator
+{ 
+public static void main( String args[ ] )
+{
+int number = 3;
+String msg = (number % 2 == 0) ? "The number is even!" : "The numbe r is odd!";
+System.out.println(msg);
+}
+}
+output
+The numbe r is odd
+
+
+19)Differentiate between while and do while.
+A)
+ 
+
+
+
+20)Write a java program to demonstrate switch () case.
+A)public class Example {
+ 
+    public static void main(String[ ] args) 
+{             
+      for(int i=0; i<5; i++) 
+	{
+            switch(i)
+	{
+            case 0:
+                System.out.println("i value is 0");
+                break;
+             
+            case 1:
+                System.out.println("i value is 1");
+                break;
+             
+            case 2:
+                System.out.println("i value is 2");
+                break;
+                 
+            default:
+             System.out.println("i value is greater than 2 and less than 5");
+             
+            }
+ 
+        }
+    }   
+}
+output
+i value is 0
+i value is 1
+i value is 2
+i value is greater than 2 and less than 5
+i value is greater than 2 and less than 5
+
+21)Write java program to demonstrate else-if ladder.
+A) 
+class Else-if 
+{
+    public static void main(String[ ] args)
+    {
+ 
+                int i = 20;
+         if (i < 10)
+            System.out.println("i is less than 10\n");
+ 
+                else if (i < 15)
+            System.out.println("i is less than 15\n");
+ 
+                else if (i < 20)
+            System.out.println("i is less than 20\n");
+ 
+        else
+            System.out.println("i is greater than "
+                               + "or equal to 20\n");
+ 
+        System.out.println("Outside if-else-if");
+    }
+}
+
+OUTPUT
+i is greater than or equal to 20
+
+Outside if-else-if
+
+
+22)Write java program to demonstrate for( ) loop.
+A)class For
+{
+public static void main(String agrs[ ])
+{
+for(int i=0;i<10;i++)
+System.out.println("i:"+i);
+}
+}
+
+
+23)Difference between Java and C++? 
+A)
+C++ Programming	Java Programming
+It support operator overloading.	It does not support operator 
+overloading.
+It support has template classes.	It does not have template classes
+ as in java.
+It supports multiple inheritances of classes.	It does not support multiple 
+inheritances of classes. 
+It supports global variables.	It does not support global 
+variables. 
+
+It supports pointers.	It does not use pointers.
+It does not support destructor function with a finalize() function.	It has replaced the destructor 
+function with a finalize() 
+function.
+There are header files in C++.	There are no header files in Java.
+
+
+
+
